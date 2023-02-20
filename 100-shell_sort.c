@@ -8,7 +8,7 @@
  */
 void swap(int *array, int item1, int item2)
 {
-	
+
 	int tmp;
 
 	tmp = array[item1];
