@@ -35,7 +35,7 @@ void maxHeapify(int *array, size_t size, int idx, size_t n)
 
 	/**
 	 * See if right child of root exists and is greater than
-	 * the largest so far
+    * the largest so far
 	 */
 	if (right < (int)n && array[right] > array[largest])
 		largest = right;
@@ -59,7 +59,7 @@ void heap_sort(int *array, size_t size)
 	int i;
 	/**
 	 * Start from bottommost and rightmost internal mode and heapify all
-	 * internal modes in bottom up way
+     * internal modes in bottom up way
 	 */
 	if (array == '\0' || size < 2)
 		return;
@@ -69,7 +69,7 @@ void heap_sort(int *array, size_t size)
 
 	/**
 	 * Repeat following steps while heap size is greater than 1.
-	 * The last element in max heap will be the minimum element
+     * The last element in max heap will be the minimum element
 	 */
 	for (i = (size - 1); i > 0; --i)
 	{
